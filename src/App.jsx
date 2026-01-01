@@ -4,7 +4,7 @@ import { MainContent } from './components/MainContent';
 function App() {
 
   return (
-    <div className='max-w-6xl mx-auto bg-gray-100'>
+    <div className='max-w-6xl mx-auto bg-gray-100 min-h-screen h-full'>
       <Navbar />
       <MainContent />
     </div>
