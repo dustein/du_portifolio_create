@@ -4,7 +4,7 @@ export function ExperienceSection() {
   return (
     <section className="py-24 px-4 sm:px-8 md:px-16 bg-white">
       <div className="max-w-4xl mx-auto">
-        <h2 className="font-texts text-2xl sm:text-5xl font-bold tracking-tighter mb-6 text-slate-600">
+        <h2 className="font-texts text-2xl sm:text-5xl font-bold tracking-tighter mb-6 sm:mb-20 text-slate-600 bg-sky-200 px-4 pb-1">
           /learning_path<span className="text-sky-400">_</span>
         </h2>
 
