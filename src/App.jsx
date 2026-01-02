@@ -6,7 +6,7 @@ import { ExperienceSection } from './components/ExperienceSection';
 function App() {
 
   return (
-    <div className='max-w-6xl mx-auto bg-gray-100 min-h-screen h-full'>
+    <div className='max-w-360 mx-auto bg-gray-100 min-h-screen h-full'>
       <Navbar />
       <Hero />
       <ProjectsSection />
