@@ -26,11 +26,11 @@ export function TechStack() {
   ];
 
   return (
-    <div className="bg-slate-200 pb-10">
+    <div className="bg-white">
       <div className="max-w-6xl mx-auto px-8 md:px-16">
-        <div className="flex flex-wrap justify-center gap-8 py-8 border-y border-slate-300">
+        <div className="flex flex-wrap justify-center gap-3 lg:gap-4 py-8">
           {stacks.map((stack, index) => (
-            <div key={index} className="flex flex-col items-center gap-2 group">
+            <div key={index} className="flex flex-col items-center gap-1 group">
               <span className="grayscale group-hover:grayscale-0 transition-all duration-300">
                 {stack.icon}
               </span>
