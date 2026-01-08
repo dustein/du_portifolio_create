@@ -9,14 +9,12 @@ export function ProjectCard({ screenshot, title, description, tags, link }) {
         </div>
       </div>
 
-      {/* 2. CONTEÚDO */}
       <div className="p-6">
 
-        <h3 className="font-titles text-lg sm:text-2xl font-black tracking-tighter text-slate-900 mb-2">
+        <h3 className="font-titles text-lg sm:text-xl font-black tracking-tighter text-slate-900 mb-2">
           {title}
         </h3>
 
-        {/* Tags sutis */}
         <div className="flex flex-wrap gap-2 mb-4">
           {tags.map(tag => (
             <span key={tag} className="text-[10px] sm:text-xs uppercase tracking-widest font-texts font-bold px-2 py-1 bg-slate-100 text-slate-500 rounded">
@@ -25,15 +23,14 @@ export function ProjectCard({ screenshot, title, description, tags, link }) {
           ))}
         </div>
 
-        {/* Descrição com Lora (Serif) */}
-        <p className="font-texts sm:text-2xl text-slate-600 leading-relaxed mb-6">
+        <p className="font-texts sm:text-lg text-slate-600 leading-relaxed mb-6">
           {description}
         </p>
 
         {/* Links de Ação */}
         <div className="flex items-center gap-6">
           <a href={link} className="font-texts text-sm font-bold text-sky-600 hover:text-sky-800 transition-colors border-b-2 border-sky-600/20 pb-0.5 tracking-widest">
-            LINK →
+            DEMO LINK →
           </a>          
         </div>
       </div>

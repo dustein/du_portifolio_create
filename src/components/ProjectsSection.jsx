@@ -6,9 +6,9 @@ import siteClubeImg from '/site_clube-screenshot-iphone12pro.png';
 
 export function ProjectsSection() {
   return (
-    <section className="relative pb-10 sm:pb-32 pt-5 sm:pt-10 px-8 md:px-16 bg-slate-200">
+    <section className="relative pb-10 sm:pb-32 sm:pt-10 px-8 md:px-16 bg-slate-200">
       <div className="max-w-6xl mx-auto">
-        <h2 className="font-texts text-2xl sm:text-5xl font-bold tracking-tighter mb-6 sm:mb-20 text-slate-600 bg-sky-200 px-4 pb-1">
+        <h2 className="font-texts text-2xl sm:text-4xl font-bold tracking-tighter mb-2 sm:mb-10 text-slate-600 bg-sky-200 px-4 pb-1">
           /some_projects<span className="text-sky-400">_</span>
         </h2>
         
@@ -18,7 +18,7 @@ export function ProjectsSection() {
             screenshot={ <img src={fisiocronosImg} className="w-full h-full object-cover" alt="Projeto Fisiocronos" /> }
             title="HIT Stopwatche"
             description="A HIIT interval timer application designed to manage workout sessions with customizable activity and rest phases."
-            tags={["React", "Node.js", "PostgreSQL"]}
+            tags={["React", "Typescript", "Vite", "TailwindCSS"]}
             link="#"
           />
 
