@@ -10,7 +10,7 @@ export function Navbar() {
         </div>
       </div>
       <div className='font-logo text-6xl'>
-        =
+        {/* = */}
       </div>
     </nav>
   );
