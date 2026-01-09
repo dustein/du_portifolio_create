@@ -27,7 +27,7 @@ export function TechStack() {
 
   return (
     <div className="bg-white">
-      <div className="max-w-6xl mx-auto px-8 md:px-16">
+      <div className="max-w-6xl mx-auto pt-16 px-8 md:px-16">
         <div className="flex flex-wrap justify-center gap-3 lg:gap-4 py-8">
           {stacks.map((stack, index) => (
             <div key={index} className="flex flex-col items-center gap-1 group">

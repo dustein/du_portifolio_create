@@ -14,6 +14,7 @@ export function ExperienceSection() {
             year="2024"
             title="CS50x: Introduction to Computer Science"
             institution="Harvard University"
+            certificate="https://certificates.cs50.io/5d75e7b7-64a0-4663-8a94-c714bfea0117.pdf?size=letter"
             description="Solid foundation in algorithms, data structures, memory management, and cyber security, while leveraging languages like C, Python, Javascript and SQL."
           />
 
@@ -25,9 +26,18 @@ export function ExperienceSection() {
           />
 
           <ExperienceCards
+            year="2023"
+            title="AWS Educate Introduction to Cloud 101"
+            institution=" Amazon Web Services Training and Certification"
+            certificate="https://www.credly.com/badges/83acbbc4-dff9-4b47-aa94-f0c630f34b49/public_url"
+            description="Acquired a foundational understanding of cloud computing concepts, including AWS core services, security, architecture, and pricing."
+          />
+
+          <ExperienceCards
             year="2021"
             title="Back End Development and APIs"
             institution="freeCodeCamp"
+            certificate="https://freecodecamp.org/certification/dustein/back-end-development-and-apis"
             description="Fundamentals of back end, focused in building robust servers and RESTful APIs using Node.js and Express, focusing on data persistence with MongoDB and Mongoose."
           />
           
@@ -35,6 +45,7 @@ export function ExperienceSection() {
             year="2021"
             title="JavaScript Algorithms and Data Structures"
             institution="freeCodeCamp"
+            certificate="https://freecodecamp.org/certification/dustein/javascript-algorithms-and-data-structures"
             description="Mastery of modern JavaScript fundamentals, algorithmic thinking, and data structures, including proficiency in Functional and Object-Oriented Programming and DOM manipulation."
           />
 
@@ -42,6 +53,7 @@ export function ExperienceSection() {
             year="2020"
             title="Responsive Web Design"
             institution="freeCodeCamp"
+            certificate="https://freecodecamp.org/certification/dustein/responsive-web-design"
             description="Proficient in building professional, accessible, and user-friendly webpages using modern HTML and CSS, with expertise in responsive layout techniques, SEO best practices, and cross-device design."
           />
 

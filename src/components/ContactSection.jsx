@@ -3,10 +3,10 @@ import linkedIn from "../assets/linkedin.svg"
 
 export function ContactSection() {
   return (
-    <section className="py-20 px-8 md:px-16 bg-slate-900 text-white">
+    <section className="pt-20 pb-5 px-8 md:px-16 bg-slate-900 text-white">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-3xl sm:text-5xl font-bold tracking-tighter mb-8">
-          Let's turn <span className="text-sky-400">magic</span> into <span className="text-sky-400">impact</span> !
+          Turn <span className="text-sky-400">magic</span> into <span className="text-sky-400">impact</span> .
         </h2>
         
         <p className="text-slate-400 text-lg sm:text-xl mb-12 max-w-2xl mx-auto">
@@ -32,7 +32,7 @@ export function ContactSection() {
           
           <a 
             href="mailto:steindu@gmail.com" 
-            className="px-6 py-3 bg-sky-600 hover:bg-sky-500 transition-colors rounded-full font-bold text-lg"
+            className="mt-4 px-6 py-3 bg-sky-600 hover:bg-sky-500 transition-colors rounded-full font-bold text-lg"
           >
             Get in Touch
           </a>

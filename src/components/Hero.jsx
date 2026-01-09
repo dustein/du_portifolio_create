@@ -6,10 +6,10 @@ export function Hero() {
       
       <div className="absolute -top-24 -left-24 w-96 h-96 bg-slate-600 rounded-full blur-[120px] opacity-50 pointer-events-none z-0"></div>
 
-      <div className="absolute inset-0 z-10 pointer-events-none flex items-start mt-20 justify-start sm:items-center sm:justify-end"> 
+      <div className="absolute inset-0 z-10 pointer-events-none flex items-start mt-40 ml-5 sm:mt-20 justify-start sm:items-center sm:justify-end"> 
         <img 
           src={backgroundSvg} 
-          className="w-1/3 h-auto opacity-5 sm:opacity-3 mr-[-5%] lg:mr-[-2%]" 
+          className="w-1/3 h-auto opacity-3 sm:opacity-3 mr-[-5%] lg:mr-[-2%]" 
           alt="" 
         />
       </div>
