@@ -15,12 +15,12 @@ export function ProjectsSection() {
   return (
     <section className="relative pb-20 pt-10 px-8 md:px-16 bg-slate-200">
       <div className="max-w-6xl mx-auto">
-        <h2 className="font-texts text-2xl sm:text-4xl font-bold tracking-tighter mb-10 text-slate-600 bg-sky-200 px-4 pb-1 inline-block">
-          /some_projects<span className="text-sky-400">_</span>
+        <h2 className="font-texts text-2xl sm:text-5xl font-bold tracking-tighter mb-6 sm:mb-20 text-slate-600 bg-sky-100 px-4 p-2">
+          /some_projects<span className="text-sky-500 animate-pulse">_</span>
         </h2>
         
         {/* Grid ajustado para 3 colunas no desktop */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 sm:gap-16">
 
           <ProjectCard 
             Icon={iconFisiocronos}

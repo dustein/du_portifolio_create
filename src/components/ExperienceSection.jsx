@@ -4,11 +4,11 @@ export function ExperienceSection() {
   return (
     <section className="py-10 sm:py-20 px-4 sm:px-8 md:px-16 bg-white">
       <div className="max-w-4xl mx-auto">
-        <h2 className="font-texts text-2xl sm:text-5xl font-bold tracking-tighter mb-6 sm:mb-20 text-slate-600 bg-sky-200 px-4 pb-1">
-          /learning_path<span className="text-sky-400">_</span>
+        <h2 className="font-texts text-2xl sm:text-5xl font-bold tracking-tighter mb-6 sm:mb-20 text-slate-600 bg-sky-100 px-4 p-2">
+          /learning_path<span className="text-sky-500 animate-pulse">_</span>
         </h2>
 
-        <div className="space-y-4 border-l-4 border-slate-100 ml-2 sm:ml-4 pl-8 relative">
+        <div className="space-y-8 sm:space-y-12 border-l-4 border-slate-100 ml-2 sm:ml-4 pl-8 relative">
           
           <ExperienceCards
             year="2024"

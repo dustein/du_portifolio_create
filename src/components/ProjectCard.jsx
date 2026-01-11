@@ -20,14 +20,14 @@ export function ProjectCard({ Icon, title, description, tags, screenshot, link }
         onClick={() => setIsModalOpen(true)}
         className="group relative bg-white border border-slate-200 rounded-xl p-6 transition-all duration-300 hover:shadow-xl cursor-pointer hover:-translate-y-1 flex flex-col h-full"
       >
-        <div className="flex items-start gap-4">
+        <div className="flex items-start gap-4 w-">
           <div className="relative shrink-0 mb-5 w-14 h-14 bg-slate-50 rounded-lg flex items-center justify-center overflow-hidden group-hover:bg-sky-50 transition-colors">
             
             {/* LÓGICA DE ÍCONE OU IMAGEM */}
             {typeof Icon === 'string' ? (
               <img src={Icon} alt="" className="w-full h-full object-cover" />
             ) : (
-              Icon && <Icon size={28} className="text-sky-600" />
+              Icon && <Icon size={28} className="text-sky-700" />
             )}
             
             <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 bg-white/40 backdrop-blur-xs rounded-lg transition-opacity">
