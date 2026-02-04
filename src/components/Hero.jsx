@@ -18,7 +18,7 @@ export function Hero() {
 
       <div className="relative z-30 flex flex-col">
         
-        <p className="text-6xl sm:text-7xl mt-6 ml-12 sm:ml-60 font-sans font-black tracking-tighter leading-none">
+        <p className="text-6xl sm:text-7xl mt-6 ml-12 sm:ml-60 font-sans font-black tracking-tight leading-none">
           Eduardo
         </p>
         <p className="text-7xl mt-2 ml-20 sm:ml-68 sm:text-8xl font-sans font-black tracking-widest leading-none text-sky-950/80">

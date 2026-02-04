@@ -17,7 +17,7 @@ export function Navbar() {
 
   return (
     <>
-      <nav className="bg-gray-50/90 p-4 text-slate-900 text-4xl flex justify-between border-b-slate-500 border-b-2 sticky top-0 z-40 shadow-sm shadow-slate-200 backdrop-blur-md">
+      <nav className="bg-gray-50/80 p-4 text-slate-900 text-4xl flex justify-between border-b-slate-500 border-b-2 sticky top-0 z-40 shadow-sm shadow-slate-200 backdrop-blur-md">
         <div className='flex justify-between items-center gap-2'>
           <CodeXml className="w-10 h-10 text-slate-500" />
           <div className='font-logo'>

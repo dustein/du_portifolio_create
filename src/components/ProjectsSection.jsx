@@ -15,7 +15,7 @@ export function ProjectsSection() {
   return (
     <section className="relative pb-20 pt-10 px-8 md:px-16 bg-slate-200">
       <div className="max-w-6xl mx-auto">
-        <h2 className="font-texts text-2xl sm:text-5xl font-bold tracking-tighter mb-6 sm:mb-20 text-slate-600 bg-sky-100 px-4 p-2">
+        <h2 className="font-texts text-3xl sm:text-5xl font-bold tracking-tighter mb-12 sm:mb-20 text-slate-600 bg-sky-100 px-4 p-2">
           /some_projects<span className="text-sky-500 animate-pulse">_</span>
         </h2>
         
