@@ -16,6 +16,15 @@ export function ExperienceSection() {
           
           <ExperienceCards
             year="2024"
+            title="CS50P: Introduction to Programming with Python"
+            icone={harvard_icon}
+            institution="Harvard University"
+            certificate="https://certificates.cs50.io/d08af7ae-190a-42ea-ae89-0847f4bac474.pdf?size=letter"
+            description="Python fundamentals—from Functions, Conditionals, and Loops to Exceptions and OOP—while ensuring software quality through Regular Expressions, File I/O, Libraries, and Unit Testing with pytest."
+          />
+
+          <ExperienceCards
+            year="2024"
             title="CS50x: Introduction to Computer Science"
             icone={harvard_icon}
             institution="Harvard University"
