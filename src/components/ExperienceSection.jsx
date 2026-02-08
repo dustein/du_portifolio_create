@@ -15,7 +15,7 @@ export function ExperienceSection() {
         <div className="space-y-8 sm:space-y-12 border-l-4 border-slate-100 ml-2 sm:ml-4 pl-8 relative">
           
           <ExperienceCards
-            year="2024"
+            year="2026"
             title="CS50P: Introduction to Programming with Python"
             icone={harvard_icon}
             institution="Harvard University"
